@@ -1,0 +1,166 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f4f4;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:15px 40px;
+  background:#6c4ab6;
+  border-bottom:1px solid #ddd;
+}
+
+.logo{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.login-btn{
+  padding:8px 16px;
+  border:none;
+  background:#826bb4;
+  color:white;
+  font-weight: bold;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:60px 20px;
+  background:#fafafa;
+}
+
+.hero h1{
+  font-size:34px;
+  color:#6c4ab6;
+  margin-bottom:15px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  color:#555;
+}
+
+
+/* MAIN CONTENT */
+
+.content{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:30px;
+  padding:40px;
+  max-width:1200px;
+  margin:auto;
+}
+
+
+/* ANNOUNCEMENTS */
+
+.announcements h2{
+  margin-bottom:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+.tag{
+  font-size:12px;
+  font-weight:bold;
+  color:#6c4ab6;
+}
+
+.tag.community{
+  color:#ff7b00;
+}
+
+.date{
+  font-size:12px;
+  color:#888;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.mass-card,{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+.mass-item{
+  display:flex;
+  justify-content:space-between;
+  margin-top:8px;
+}
+
+.sidebar button{
+  margin-top:10px;
+  width:100%;
+  padding:10px;
+  background:#6c4ab6;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.hero-actions{
+  margin-top:25px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+.hero-btn{
+  padding:12px 22px;
+  background:#6c4ab6;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.hero-btn:hover{
+  background:#543a8f;
+}
+
+.hero-btn.secondary{
+  background:#ffffff;
+  color:#6c4ab6;
+  border:2px solid #6c4ab6;
+}
+
+.hero-btn.secondary:hover{
+  background:#f3f0ff;
+}

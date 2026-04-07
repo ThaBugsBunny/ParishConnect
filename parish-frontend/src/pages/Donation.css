@@ -1,0 +1,113 @@
+/* Page background */
+.donation-page {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Back button */
+.back-btn {
+  width: 100%;
+  max-width: 650px;
+  margin-bottom: 15px;
+  color: #6c4ab6;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Main card */
+.donation-card2 {
+  background: #ffffff;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-top: 4px solid #6c4ab6;
+}
+
+/* Headings */
+.donation-card2 h2 {
+  margin-top: 5px;
+  color: #000;
+}
+
+.donation-card2 h4 {
+  color: #6c4ab6;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Target Options */
+.targets .option {
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.targets .option:hover {
+  border-color: #6c4ab6;
+}
+
+/* Amount buttons */
+.amounts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.amounts button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.amounts button:hover {
+  border-color: #6c4ab6;
+}
+
+.amounts .active {
+  background: #6c4ab6;
+  color: #ffffff;
+  border-color: #6c4ab6;
+}
+
+/* Custom amount */
+.custom-amount input {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Pay button */
+.pay-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6c4ab6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pay-btn:hover {
+  background: #543a8f;
+}
